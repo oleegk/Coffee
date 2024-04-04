@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11398F1ECF6CA565E30B745E /* Pods_Coffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D735067258F547A5026C52 /* Pods_Coffee.framework */; };
 		5A1643172B73B90B008EA50A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1643162B73B90B008EA50A /* AppDelegate.swift */; };
 		5A1643192B73B90B008EA50A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1643182B73B90B008EA50A /* SceneDelegate.swift */; };
 		5A16431B2B73B90B008EA50A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A16431A2B73B90B008EA50A /* RegistrationViewController.swift */; };
@@ -67,8 +66,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		36D99CF4E761944C82AB79B2 /* Pods-Coffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee.debug.xcconfig"; path = "Target Support Files/Pods-Coffee/Pods-Coffee.debug.xcconfig"; sourceTree = "<group>"; };
-		54D735067258F547A5026C52 /* Pods_Coffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1643132B73B90B008EA50A /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1643162B73B90B008EA50A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A1643182B73B90B008EA50A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,7 +122,6 @@
 		5A16439A2B77E834008EA50A /* sf-ui-display-black-58646a6b80d5a.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-black-58646a6b80d5a.otf"; sourceTree = "<group>"; };
 		5A60A83F2B79585E00BB6C3D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		5A60A8412B7963F700BB6C3D /* CoffeeCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeCellModel.swift; sourceTree = "<group>"; };
-		8693260D643E7B72E9E73E16 /* Pods-Coffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee.release.xcconfig"; path = "Target Support Files/Pods-Coffee/Pods-Coffee.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +131,6 @@
 			files = (
 				5A5B36652B8B199F005010A4 /* Alamofire in Frameworks */,
 				5A16432C2B73B92B008EA50A /* SnapKit in Frameworks */,
-				11398F1ECF6CA565E30B745E /* Pods_Coffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +143,6 @@
 				5A1643152B73B90B008EA50A /* Coffee */,
 				5A1643142B73B90B008EA50A /* Products */,
 				D3E5F4D3514BC32E8B43A3EF /* Pods */,
-				6ED5E02140CF67A381B5D9A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -350,19 +344,9 @@
 			path = LocationManager;
 			sourceTree = "<group>";
 		};
-		6ED5E02140CF67A381B5D9A5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				54D735067258F547A5026C52 /* Pods_Coffee.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D3E5F4D3514BC32E8B43A3EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				36D99CF4E761944C82AB79B2 /* Pods-Coffee.debug.xcconfig */,
-				8693260D643E7B72E9E73E16 /* Pods-Coffee.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -374,12 +358,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A1643272B73B90C008EA50A /* Build configuration list for PBXNativeTarget "Coffee" */;
 			buildPhases = (
-				B09E8CD12B75721AB7141570 /* [CP] Check Pods Manifest.lock */,
 				5A16430F2B73B90B008EA50A /* Sources */,
 				5A1643102B73B90B008EA50A /* Frameworks */,
 				5A1643112B73B90B008EA50A /* Resources */,
-				38239C127B80C9C4BB4F3789 /* [CP] Embed Pods Frameworks */,
-				FEC25E1224D752AC68AFD2DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -419,8 +400,8 @@
 			);
 			mainGroup = 5A16430A2B73B90B008EA50A;
 			packageReferences = (
-				5A16432A2B73B92B008EA50A /* XCRemoteSwiftPackageReference "SnapKit" */,
-				5A5B36632B8B199F005010A4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				5A16432A2B73B92B008EA50A /* XCRemoteSwiftPackageReference "SnapKit.git" */,
+				5A5B36632B8B199F005010A4 /* XCRemoteSwiftPackageReference "Alamofire.git" */,
 			);
 			productRefGroup = 5A1643142B73B90B008EA50A /* Products */;
 			projectDirPath = "";
@@ -451,65 +432,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		38239C127B80C9C4BB4F3789 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B09E8CD12B75721AB7141570 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Coffee-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FEC25E1224D752AC68AFD2DE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A16430F2B73B90B008EA50A /* Sources */ = {
@@ -700,7 +622,6 @@
 		};
 		5A1643282B73B90C008EA50A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36D99CF4E761944C82AB79B2 /* Pods-Coffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -729,7 +650,6 @@
 		};
 		5A1643292B73B90C008EA50A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8693260D643E7B72E9E73E16 /* Pods-Coffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -780,7 +700,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5A16432A2B73B92B008EA50A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		5A16432A2B73B92B008EA50A /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -788,7 +708,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		5A5B36632B8B199F005010A4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		5A5B36632B8B199F005010A4 /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -801,12 +721,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		5A16432B2B73B92B008EA50A /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5A16432A2B73B92B008EA50A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 5A16432A2B73B92B008EA50A /* XCRemoteSwiftPackageReference "SnapKit.git" */;
 			productName = SnapKit;
 		};
 		5A5B36642B8B199F005010A4 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5A5B36632B8B199F005010A4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 5A5B36632B8B199F005010A4 /* XCRemoteSwiftPackageReference "Alamofire.git" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
